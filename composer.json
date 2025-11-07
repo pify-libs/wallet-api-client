@@ -1,0 +1,38 @@
+{
+    "name": "pify/wallet-api-client",
+    "description": "PHP client for Pify.cc Wallet API - управление кошельками, переводами и историей операций",
+    "type": "library",
+    "keywords": ["pify", "wallet", "api", "crypto", "payment"],
+    "homepage": "https://github.com/pify/wallet-api-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pify Team",
+            "email": "dev@pify.cc",
+            "homepage": "https://pify.cc"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pify\\WalletApiClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pify\\WalletApiClient\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests/"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
