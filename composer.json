@@ -1,9 +1,9 @@
 {
-    "name": "pify/wallet-api-client",
+    "name": "pify-libs/wallet-api-client",
     "description": "PHP client for Pify.cc Wallet API - управление кошельками, переводами и историей операций",
     "type": "library",
     "keywords": ["pify", "wallet", "api", "crypto", "payment"],
-    "homepage": "https://github.com/pify/wallet-api-client",
+    "homepage": "https://github.com/pify-libs/wallet-api-client",
     "license": "MIT",
     "authors": [
         {
